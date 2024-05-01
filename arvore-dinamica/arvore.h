@@ -1,8 +1,8 @@
 typedef struct No No;
 typedef struct Arvore Arvore;
 
-Arvore* cria ();
-void push (No* raiz, int valor);
-int busca(No* raiz, int valor);
-void delete(No* raiz, int valor);
-void imprime(No* raiz);
+Arvore* arvore_cria ();
+void arvore_push (Arvore* arvore, int valor);
+int arvore_busca(Arvore* arvore, int valor);
+void arvore_delete(Arvore* arvore, int valor);
+void arvore_imprime(Arvore* arvore);
