@@ -59,3 +59,18 @@ int pop (Fila* f) {
         return valor_return;
     }
 }
+
+
+void imprime_no(No* no) {
+    if(no != NULL) {
+        printf("%d ", no->valor);
+    } else {
+        return;
+    }
+    imprime_no(no->anterior);
+}
+
+void imprime(Fila* f) {
+    imprime_no(f->inicio);
+    printf("\n------------------------------ \n");
+}

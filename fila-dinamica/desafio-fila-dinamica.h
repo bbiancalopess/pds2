@@ -9,3 +9,5 @@ Fila* cria ();
 void push (int A, Fila* f);
 
 int pop (Fila* f);
+
+void imprime(Fila* fila);
