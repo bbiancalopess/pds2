@@ -24,6 +24,7 @@ class Simulador
     private:
         bool removerPersonagem(Personagem* personagem, vector<Personagem*> equipe);
         Personagem* proximoPersonagem(vector<Personagem*> equipe);
+        Personagem* proximoPersonagemAleatorio(vector<Personagem*> equipe);
         int criarCombate(Personagem* personagem1, Personagem* personagem2);
         string criarSaida(Personagem* personagem1, Personagem* personagem2, int dano);
 

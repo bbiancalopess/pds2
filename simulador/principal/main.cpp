@@ -42,11 +42,11 @@ int main()
     ArmaDefesa* regeneracao = new Regeneracao("Personagem leva o dano mas regenera um pouco do dano causado", 2);
     ArmaDefesa* teletransporte = new Teletransporte("Personagem teletransporta para fugir do golpe", 3);
 
-    Personagem* baraka = new Baraka(1, "Baraka", 100, garras, regeneracao);
-    Personagem* kitana = new Kitana(2, "Kitana", 100, lequeDeAco, armadura);
-    Personagem* mileena = new Mileena(3, "Mileena", 100, soco, teletransporte);
-    Personagem* scorpion = new Scorpion(4, "Scorpion", 100, correnteEmChamas, esquiva);
-    Personagem* subzero = new Subzero(5, "Subzero", 100, projeteisDeGelo, congelamento);
+    Personagem* baraka = new Baraka(1, "Baraka EQ1", 100, garras, regeneracao);
+    Personagem* kitana = new Kitana(2, "Kitana EQ2", 100, lequeDeAco, armadura);
+    Personagem* mileena = new Mileena(3, "Mileena EQ1", 100, soco, teletransporte);
+    Personagem* scorpion = new Scorpion(4, "Scorpion EQ1", 100, correnteEmChamas, esquiva);
+    Personagem* subzero = new Subzero(5, "Subzero EQ2", 100, projeteisDeGelo, congelamento);
 
     Simulador* simulador = new Simulador();
 

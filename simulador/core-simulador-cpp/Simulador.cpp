@@ -89,6 +89,35 @@ Personagem* Simulador::proximoPersonagem(vector<Personagem*> equipe)
     return nullptr;
 }
 
+Personagem* Simulador::proximoPersonagemAleatorio(vector<Personagem*> equipe)
+{
+    int tamanho = equipe.size();
+    if (tamanho == 0)
+    {
+        return nullptr;
+    }
+    
+    vector<int> indicesVivos;
+
+    for (int i = 0; i < tamanho; ++i)
+    {
+        if (equipe[i]->getVida() > 0)
+        {
+            indicesVivos.push_back(i);
+        }
+    }
+
+    int numIndicesVivos = indicesVivos.size();
+    if (numIndicesVivos == 0)
+    {
+        return nullptr;
+    }
+
+    int indiceSelecionado = indicesVivos[std::rand() % numIndicesVivos];
+
+    return equipe[indiceSelecionado];
+}
+
 int Simulador::criarCombate(Personagem* personagem1, Personagem* personagem2)
 {
     int ataque = personagem1->gerarAtaque();
@@ -128,14 +157,14 @@ void Simulador::iniciarSimulacao()
 
         if (equipeQueAtaca == 1)
         {
-            personagemAtacante = proximoPersonagem(equipe1);
-            personagemDefesa = proximoPersonagem(equipe2);
+            personagemAtacante = proximoPersonagemAleatorio(equipe1);
+            personagemDefesa = proximoPersonagemAleatorio(equipe2);
         }
 
         if (equipeQueAtaca == 2)
         {
-            personagemAtacante = proximoPersonagem(equipe2);
-            personagemDefesa = proximoPersonagem(equipe1);
+            personagemAtacante = proximoPersonagemAleatorio(equipe2);
+            personagemDefesa = proximoPersonagemAleatorio(equipe1);
         }
 
         dano = criarCombate(personagemAtacante, personagemDefesa);
