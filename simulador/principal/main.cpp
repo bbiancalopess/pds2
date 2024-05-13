@@ -24,7 +24,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
-void main()
+int main()
 {
     ArmaAtaque* correnteEmChamas = new CorrenteEmChamas("Corrente com gancho na ponta em chamas", 0, 25);
     ArmaAtaque* garras = new Garras("Garras",0,15);
@@ -53,4 +53,6 @@ void main()
     simulador->adicionarPersonagem(subzero, 2);
     
     simulador->iniciarSimulacao();
+
+    return 0;
 }
