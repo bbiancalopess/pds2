@@ -2,21 +2,17 @@
 #include <string>
 
 #include "../acessorios-hpp/Armadura.hpp"
-#include "../acessorios-hpp/Colher.hpp"
 #include "../acessorios-hpp/Congelamento.hpp"
 #include "../acessorios-hpp/CorrenteEmChamas.hpp"
-#include "../acessorios-hpp/Escudo.hpp"
 #include "../acessorios-hpp/Esquiva.hpp"
 #include "../acessorios-hpp/Garras.hpp"
 #include "../acessorios-hpp/LequeDeAco.hpp"
 #include "../acessorios-hpp/ProjeteisDeGelo.hpp"
 #include "../acessorios-hpp/Regeneracao.hpp"
-#include "../acessorios-hpp/Rosa.hpp"
 #include "../acessorios-hpp/Soco.hpp"
 #include "../acessorios-hpp/Teletransporte.hpp"
 
 #include "../personagens-hpp/Baraka.hpp"
-#include "../personagens-hpp/Chaves.hpp"
 #include "../personagens-hpp/Kitana.hpp"
 #include "../personagens-hpp/Mileena.hpp"
 #include "../personagens-hpp/Scorpion.hpp"
@@ -28,7 +24,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
-int main()
+void main()
 {
     ArmaAtaque* correnteEmChamas = new CorrenteEmChamas("Corrente com gancho na ponta em chamas", 0, 25);
     ArmaAtaque* garras = new Garras("Garras",0,15);
@@ -57,6 +53,4 @@ int main()
     simulador->adicionarPersonagem(subzero, 2);
     
     simulador->iniciarSimulacao();
-
-    return 0;
 }
