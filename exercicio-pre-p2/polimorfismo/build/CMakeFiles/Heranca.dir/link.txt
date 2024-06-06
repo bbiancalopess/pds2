@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Heranca.dir/veiculo.cpp.o CMakeFiles/Heranca.dir/caminhao.cpp.o CMakeFiles/Heranca.dir/van.cpp.o CMakeFiles/Heranca.dir/main.cpp.o -o Heranca 

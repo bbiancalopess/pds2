@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Heranca.dir/src/estagiario.cpp.o CMakeFiles/Heranca.dir/src/funcionario.cpp.o CMakeFiles/Heranca.dir/src/regular.cpp.o CMakeFiles/Heranca.dir/src/gerente.cpp.o CMakeFiles/Heranca.dir/src/main.cpp.o -o Heranca 

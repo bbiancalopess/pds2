@@ -1,0 +1,3 @@
+/mnt/c/Users/bianc/Documents/ufmg/20241/pds-2/exercicio-pre-p2/polimorfismo/build/CMakeFiles/Polimorfismo.dir
+/mnt/c/Users/bianc/Documents/ufmg/20241/pds-2/exercicio-pre-p2/polimorfismo/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/bianc/Documents/ufmg/20241/pds-2/exercicio-pre-p2/polimorfismo/build/CMakeFiles/rebuild_cache.dir

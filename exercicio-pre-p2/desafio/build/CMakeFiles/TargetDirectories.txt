@@ -1,0 +1,3 @@
+/mnt/c/Users/bianc/Documents/ufmg/20241/pds-2/exercicio-pre-p2/desafio/build/CMakeFiles/Grafo.dir
+/mnt/c/Users/bianc/Documents/ufmg/20241/pds-2/exercicio-pre-p2/desafio/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/bianc/Documents/ufmg/20241/pds-2/exercicio-pre-p2/desafio/build/CMakeFiles/rebuild_cache.dir
